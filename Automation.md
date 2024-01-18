@@ -105,6 +105,7 @@ print(f"Model Prediction: {prediction}")
 ## Errors and Solutions:**
 - Error: Compatibility issues with the deployment environment.
   - Solution: Ensure that the deployment environment supports the required libraries and versions.
+  - Verify the versions of dependencies required by your software. Use tools like ldd to check library dependencies for binary files.
 
 - Error: Input data format mismatch.
   - Solution: Validate and preprocess input data to match the format expected by the model.
